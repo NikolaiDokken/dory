@@ -1,2 +1,0 @@
-# Dory
-Eksperter i team
