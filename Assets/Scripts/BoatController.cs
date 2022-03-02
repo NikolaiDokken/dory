@@ -15,8 +15,8 @@ public class BoatController : MonoBehaviour
 
     float horizontalInput;
     float verticalInput;
-    float angleMax = 3.14f;
-    float angleMin = -3.14f;
+    float angleMax = 1.57f;
+    float angleMin = -1.57f;
     [SerializeField]
     float angle = 0.0f;
     float lx = 0.0f;
@@ -24,7 +24,6 @@ public class BoatController : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Moshimoshi");
         lx = Mathf.Abs(propeler.transform.position.x - balloonBoat.transform.position.x);        
     }
 
