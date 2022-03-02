@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class gasRotation : MonoBehaviour
 {
-    public float speed, maxUp, maxDown, currentTilt;
-    void Start()
-    {
-        maxDown = 0.5f;
-        maxUp = -0.5f;
-        speed = 50;
-    }
+   
+    public float maxDown = 0.5f;
+    public float maxUp = -0.5f;
+    public float speed = 50;
 
+    public float currentTilt;
+    
     void Update()
     {
         currentTilt = gameObject.transform.rotation.z;

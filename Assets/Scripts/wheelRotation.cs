@@ -5,15 +5,14 @@ using System;
 
 public class wheelRotation : MonoBehaviour
 {
-    public float speed, maxLeft, maxRight, delta, lerp, tilt, angle;
-    void Start()
-    {
-        lerp = 0.0f;
-        maxLeft = 450.0f;
-        maxRight = -450.0f;
-        speed = 200;
-        //center = gameObject.transform.GetComponent<Renderer>().bounds.center;
-    }
+    public float maxLeft = 450f;
+    public float maxRight = -450f;
+    public float speed = 200;
+    
+    float delta; 
+    float lerp = 0f;
+    float tilt;
+    float angle;
 
     void Update()
     {

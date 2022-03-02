@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class motorRotation : MonoBehaviour
 {
-    public float speed, maxLeft, maxRight, delta, lerp, tilt, angle;
-    void Start()
-    {
-        lerp = 0.0f;
-        maxLeft = 450.0f;
-        maxRight = -450.0f;
-        speed = 200;
-        //center = gameObject.transform.GetComponent<Renderer>().bounds.center;
-    }
+    public float angle;
+    public float speed = 200;
+    public float maxLeft = 450.0f;
+    public float maxRight = -450.0f;
+
+    float delta;
+    float tilt;
+    float lerp = 0f;
 
     void Update()
     {

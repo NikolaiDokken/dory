@@ -191,10 +191,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
-  maxUp: 0
-  maxDown: 0
   currentTilt: 0
-  gas: {fileID: 0}
+  maxDown: 0
+  maxUp: 10
+  gas: {fileID: 8999217101510676824}
 --- !u!1 &3859665001357213840
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,13 +489,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03299105790e64a0d9de21071c4e3d09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  maxLeft: 0
-  maxRight: 0
-  delta: 0
-  lerp: 0
-  tilt: 0
   angle: 0
+  speed: 200
+  maxLeft: 450
+  maxRight: -450
 --- !u!1 &6834474629431300470
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,9 +699,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6269b8ae8cf9a443ba40a8343848c440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  maxUp: 0
-  maxDown: 0
+  maxDown: 0.5
+  maxUp: -0.5
+  speed: 50
   currentTilt: 0
 --- !u!1001 &2020669646327852280
 PrefabInstance:
@@ -797,10 +794,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59080eb8aa98348b4a27f22070441127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  maxLeft: 0
-  maxRight: 0
-  delta: 0
-  lerp: 0
-  tilt: 0
-  angle: 0
+  maxLeft: 450
+  maxRight: -450
+  speed: 200
