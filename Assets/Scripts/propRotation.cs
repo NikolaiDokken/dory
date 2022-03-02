@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class propRotation : MonoBehaviour
 {
-    public float speed, currentTilt;
     public float maxDown = 0.5f;
     public float maxUp = -0.5f;
     public GameObject gas;
+    
+    float speed, currentTilt;
 
     void Update()
     {

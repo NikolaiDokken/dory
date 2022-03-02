@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class motorRotation : MonoBehaviour
 {
-    public float angle;
     public float speed = 200;
     public float maxLeft = 450.0f;
     public float maxRight = -450.0f;
 
+    float angle;
     float delta;
     float tilt;
     float lerp = 0f;

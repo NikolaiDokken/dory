@@ -9,7 +9,7 @@ public class gasRotation : MonoBehaviour
     public float maxUp = -0.5f;
     public float speed = 50;
 
-    public float currentTilt;
+    float currentTilt;
     
     void Update()
     {
