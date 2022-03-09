@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UiScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Level green_mark.unity
+    guid: 701b77ca4a65b4ad2926bc53cf6edd47
+  - enabled: 1
+    path: Assets/Scenes/LevelCompleteScene.unity
+    guid: 0d854c5d20aab4124bb462e471d33cfb
   m_configObjects: {}
