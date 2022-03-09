@@ -214,7 +214,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &63786971
 PrefabInstance:
@@ -859,7 +859,7 @@ Transform:
   - {fileID: 1176825810}
   - {fileID: 1241213287}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &996773008
 GameObject:
@@ -1237,7 +1237,7 @@ Transform:
   m_LocalScale: {x: 100.000015, y: 100.000015, z: 100.00004}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1277739505
 GameObject:
@@ -1318,8 +1318,77 @@ Transform:
   m_LocalScale: {x: 141.53584, y: 141.53584, z: 141.53584}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1460526570
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 61.03
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.59
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 50.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.055913262
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.05591303
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70489275
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.70489275
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d977e267ea32d4045a33a0e446479619, type: 3}
+      propertyPath: m_Name
+      value: lateralmerke styrbord G stake
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d977e267ea32d4045a33a0e446479619, type: 3}
 --- !u!1 &1472786590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1497,75 +1566,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
---- !u!1001 &1754259037
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 150
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 60.876
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 9.476
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 49.923
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.055913262
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.05591303
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.70489275
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.70489275
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
-      propertyPath: m_Name
-      value: lateralmerke styrbord G stake
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1273c66814d734bc2be5708ad5480dda, type: 3}
 --- !u!1001 &2085672321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1579,7 +1579,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565163386368090304, guid: fae3bd038621cfa459aedb1fa3a4245d, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3565163386368090304, guid: fae3bd038621cfa459aedb1fa3a4245d, type: 3}
       propertyPath: m_LocalPosition.x
