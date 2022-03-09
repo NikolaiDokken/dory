@@ -62,3 +62,4 @@ crashlytics-build.properties
 
 # Other
 .DS_Store
+.ionide/
