@@ -7,12 +7,18 @@ public class SceneLoader : MonoBehaviour
 {
     public void LoadGame()
     {
+        PlayerPrefs.SetInt("prevSceneIndex", SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-     public void LoadGameByName(string sceneName)
+    public void LoadGameByName(string sceneName)
     {
+        PlayerPrefs.SetInt("prevSceneIndex", SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void LoadPreviousScene() {
+        SceneManager.LoadScene(PlayerPrefs.GetInt("prevSceneIndex"));
     }
 
     public void LoadMainMenu()

@@ -13,6 +13,7 @@ public class TriggerCollision : MonoBehaviour {
         if (collisionObject.tag == "Finish") {
             // OPEN game over menu
             if (hasFailed) {
+                PlayerPrefs.SetInt("prevSceneIndex", SceneManager.GetActiveScene().buildIndex);
                 SceneManager.LoadScene("LevelFailedScene");
                 return;
             }
