@@ -11,7 +11,6 @@ public class BoatController : MonoBehaviour
     public float rotationSpeed;
     public Rigidbody rigidBody;
 
-    float verticalInput;
     [SerializeField]
     float angle = 0.0f;
     float lx = 0.0f;
@@ -25,15 +24,14 @@ public class BoatController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        angle = - wheelRotation.angle * Mathf.PI/900;
+        angle = wheelRotation.angle * Mathf.PI/900;
         Movement();
     }
 
     void Movement()
     {
-        verticalInput = Input.GetAxis("Vertical");
-        float Fx = verticalInput * drivingSpeed * Mathf.Cos(angle);
-        float Fz = -verticalInput * drivingSpeed * Mathf.Sin(angle);
+        float Fx = gasRotation.tilt * drivingSpeed * Mathf.Cos(angle);
+        float Fz = gasRotation.tilt * drivingSpeed * Mathf.Sin(angle);
         rigidBody.AddRelativeForce(new Vector3(Fx, 0.0f, 0.0f), ForceMode.Acceleration);
 
         rigidBody.AddTorque(new Vector3(0f, -lx * Fz * rotationSpeed, 0.0f));
