@@ -10,6 +10,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+     public void LoadGameByName(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
     public void LoadMainMenu()
     {
         SceneManager.LoadScene(0);
