@@ -9,7 +9,7 @@ public class gasRotation : MonoBehaviour
     public float maxUp = -90;
     public float speed = 50;
 
-    public float tilt;
+    public static float tilt;
     KeyCode lastInput;
 
     void Start(){
