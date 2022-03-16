@@ -21,6 +21,8 @@ public class Pause : MonoBehaviour {
         pauseMenu.SetActive(false);
         isPaused = false;
         Time.timeScale = 1;
+        Camera.main.GetComponent<FirstPersonCamera>().paused = false;
+
 
     }
 
@@ -28,5 +30,7 @@ public class Pause : MonoBehaviour {
         pauseMenu.SetActive(true);
         isPaused = true;
         Time.timeScale = 0;
+        Camera.main.GetComponent<FirstPersonCamera>().paused = true;
+
     }
 }
