@@ -19,17 +19,19 @@ public class gasRotation : MonoBehaviour
     void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.W) && tilt > maxUp){
-            if(!(lastInput == KeyCode.W && tilt > 0 && tilt < 1)){
+            if(!(lastInput == KeyCode.W && tilt > -1 && tilt < 1)){
                 transform.Rotate(-Vector3.forward * speed * Time.deltaTime);
                 tilt -= speed * Time.deltaTime;
             }
+            else tilt = 0;
             lastInput = KeyCode.W;
         }
         else if (Input.GetKey(KeyCode.S) && tilt < maxDown){
-            if(!(lastInput == KeyCode.S && tilt > 0 && tilt < 1)){
+            if(!(lastInput == KeyCode.S && tilt > -1 && tilt < 1)){
                 transform.Rotate(Vector3.forward * speed * Time.deltaTime);
                 tilt += speed * Time.deltaTime;
             }
+            else tilt = 0;
             lastInput = KeyCode.S;
         }
         else{
