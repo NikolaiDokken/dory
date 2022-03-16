@@ -523,9 +523,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   propeler: {fileID: 3330032321408665787}
   balloonBoat: {fileID: 5915908736096780608}
-  turningSpeed: 0.7
   drivingSpeed: 10
-  rotationSpeed: 0.015
+  rotationSpeed: 0.007
   rigidBody: {fileID: 761980690070347727}
   angle: 0
 --- !u!1 &6134597461324626179
