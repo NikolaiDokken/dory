@@ -396,12 +396,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5377503213668298077}
-  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -2.87, y: 0.24999988, z: 1.2200004}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.07999992, y: 1.7400005, z: -0.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6166341427721423820}
-  m_RootOrder: 11
+  m_Father: {fileID: 5915908736096780609}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
 --- !u!20 &4394265653575893267
 Camera:
@@ -606,8 +606,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5915908736096780609}
-  - component: {fileID: 761980690070347727}
-  - component: {fileID: 7269082163809916572}
   m_Layer: 0
   m_Name: PrototypeBoat
   m_TagString: Untagged
@@ -627,44 +625,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6166341427721423820}
+  - {fileID: 4712168856867647576}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &761980690070347727
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5915908736096780608}
-  serializedVersion: 2
-  m_Mass: 100
-  m_Drag: 1
-  m_AngularDrag: 2
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &7269082163809916572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5915908736096780608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0121f54c07d80484e988604f0a211773, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  propeler: {fileID: 3330032321408665787}
-  balloonBoat: {fileID: 5915908736096780608}
-  turningSpeed: 0.7
-  drivingSpeed: 10
-  rotationSpeed: 0.015
-  rigidBody: {fileID: 761980690070347727}
-  angle: 0
 --- !u!1 &6134597461324626179
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +786,8 @@ GameObject:
   - component: {fileID: 6166341427721423820}
   - component: {fileID: 7078784841198814313}
   - component: {fileID: 5032792405783589027}
+  - component: {fileID: 499096817221644984}
+  - component: {fileID: 9039511062708870056}
   m_Layer: 0
   m_Name: BallonBoat
   m_TagString: Untagged
@@ -851,7 +817,6 @@ Transform:
   - {fileID: 8918266678549779215}
   - {fileID: 6625502499375171234}
   - {fileID: 3148347285563044973}
-  - {fileID: 4712168856867647576}
   m_Father: {fileID: 5915908736096780609}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
@@ -904,6 +869,41 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &499096817221644984
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6834474629431300470}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0.01
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &9039511062708870056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6834474629431300470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0121f54c07d80484e988604f0a211773, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  propeler: {fileID: 3330032321408665787}
+  balloonBoat: {fileID: 5915908736096780608}
+  turningSpeed: 0.7
+  drivingSpeed: 10
+  rotationSpeed: 0.015
+  rigidBody: {fileID: 0}
+  angle: 0
 --- !u!1 &7058945630343801610
 GameObject:
   m_ObjectHideFlags: 0
