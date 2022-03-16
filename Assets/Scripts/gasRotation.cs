@@ -5,20 +5,37 @@ using UnityEngine;
 public class gasRotation : MonoBehaviour
 {
    
-    public float maxDown = 0.5f;
-    public float maxUp = -0.5f;
+    public float maxDown = 50f;
+    public float maxUp = -90;
     public float speed = 50;
 
-    float currentTilt;
+    public float tilt;
+    KeyCode lastInput;
+
+    void Start(){
+        lastInput = KeyCode.Z;
+    }
     
-    void Update()
+    void FixedUpdate()
     {
-        currentTilt = gameObject.transform.rotation.z;
-        float delta = Time.deltaTime;
-        if (Input.GetKey(KeyCode.W) && currentTilt > maxUp)
-            transform.Rotate(-Vector3.forward * speed * Time.deltaTime);
-      
-        if (Input.GetKey(KeyCode.S) && currentTilt < maxDown)
-            transform.Rotate(Vector3.forward * speed * Time.deltaTime);
+        if (Input.GetKey(KeyCode.W) && tilt > maxUp){
+            if(!(lastInput == KeyCode.W && tilt > -1 && tilt < 1)){
+                transform.Rotate(-Vector3.forward * speed * Time.deltaTime);
+                tilt -= speed * Time.deltaTime;
+            }
+            else tilt = 0;
+            lastInput = KeyCode.W;
+        }
+        else if (Input.GetKey(KeyCode.S) && tilt < maxDown){
+            if(!(lastInput == KeyCode.S && tilt > -1 && tilt < 1)){
+                transform.Rotate(Vector3.forward * speed * Time.deltaTime);
+                tilt += speed * Time.deltaTime;
+            }
+            else tilt = 0;
+            lastInput = KeyCode.S;
+        }
+        else{
+            lastInput = KeyCode.Z; // reset, dummy key
+        }
     }
 }

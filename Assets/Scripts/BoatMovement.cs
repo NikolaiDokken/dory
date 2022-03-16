@@ -7,7 +7,7 @@ public class BoatMovement : MonoBehaviour
     public float speed = 10f;
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.position += transform.right * Time.deltaTime * speed;
     }

@@ -9,6 +9,24 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 6557216752568734aace0b54a206a14c
   - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 5836189ea3c034f418aa8a69d6dbd49c
+  - enabled: 1
     path: Assets/Scenes/UiScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Level green_mark.unity
+    guid: 701b77ca4a65b4ad2926bc53cf6edd47
+  - enabled: 1
+    path: Assets/Scenes/Level boat.unity
+    guid: d98ca17e5e6a048448eb098fefa0c4ae
+  - enabled: 1
+    path: Assets/Scenes/LevelCompleteScene.unity
+    guid: 0d854c5d20aab4124bb462e471d33cfb
+  - enabled: 1
+    path: Assets/Scenes/LevelFailedScene.unity
+    guid: 864b6b5f63db64f25b625442846cecc5
+  - enabled: 1
+    path: Assets/Scenes/Level sailboat.unity
+    guid: 60e7d782fa1c04ffcb13302356ce403a
   m_configObjects: {}
