@@ -27,6 +27,12 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelFailedScene.unity
     guid: 864b6b5f63db64f25b625442846cecc5
   - enabled: 1
+    path: Assets/Scenes/Level sailboat no sail.unity
+    guid: 42ae7d1caa7959246b5463f714df2990
+  - enabled: 1
+    path: Assets/Scenes/Level sailboat with sail.unity
+    guid: 5afb7dedd71dd104db764063d63e7a7d
+  - enabled: 0
     path: Assets/Scenes/Level sailboat.unity
     guid: 60e7d782fa1c04ffcb13302356ce403a
   m_configObjects: {}
