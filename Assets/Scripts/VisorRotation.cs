@@ -6,23 +6,23 @@ using System;
 
 public class VisorRotation : MonoBehaviour
 {
-    float cur_tilt;
-    float multiplier = 45;
+    float speed;
+    float multiplier = 12000;
     public TextMeshPro txt;
     void Start(){
-        cur_tilt = 0;
+        speed = 0;
         txt.SetText("0");
     }
 
     void FixedUpdate()
     {
-        if(cur_tilt < Math.Abs(gasRotation.tilt)){
-            transform.Rotate(Vector3.left * (Math.Abs(gasRotation.tilt) - cur_tilt) * multiplier * Time.deltaTime);
+        if(speed < Math.Abs(BoatController.current_speed)){
+            transform.Rotate(Vector3.left * (Math.Abs(BoatController.current_speed) - speed) * multiplier * Time.deltaTime);
         }
-        else if(cur_tilt > Math.Abs(gasRotation.tilt)){
-            transform.Rotate(Vector3.left * (Math.Abs(gasRotation.tilt) - cur_tilt) * multiplier * Time.deltaTime);
+        else if(speed > Math.Abs(BoatController.current_speed)){
+            transform.Rotate(Vector3.left * (Math.Abs(BoatController.current_speed) - speed) * multiplier * Time.deltaTime);
         }
-        cur_tilt = Math.Abs(gasRotation.tilt);
-        txt.SetText(cur_tilt.ToString());
+        speed = Math.Abs(BoatController.current_speed);
+        txt.SetText(Math.Round(speed * multiplier / 100).ToString());
     }
 }
