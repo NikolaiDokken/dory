@@ -4,6 +4,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour {
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += ResetVariables;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= ResetVariables;
+    }
+
     public void LoadGame() {
         PlayerPrefs.SetInt("prevSceneIndex", SceneManager.GetActiveScene().buildIndex);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -27,4 +38,11 @@ public class SceneLoader : MonoBehaviour {
         Application.Quit();
         Debug.Log("Game is exiting!");
     }
+
+    void ResetVariables(Scene scene, LoadSceneMode mode)
+    {
+        wheelRotation.angle = 0;
+        gasRotation.tilt = 0;
+    }
+
 }
