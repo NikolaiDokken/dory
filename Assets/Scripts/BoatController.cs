@@ -15,13 +15,15 @@ public class BoatController : MonoBehaviour
     float angle = 0.0f;
     float lx = 0.0f;
 
+    public static float current_speed;
+    Vector3 location;
 
     void Start()
     {
         lx = Mathf.Abs(propeler.transform.position.x - balloonBoat.transform.position.x);
+        location = transform.position;
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         angle = wheelRotation.angle * Mathf.PI/900;
@@ -35,7 +37,8 @@ public class BoatController : MonoBehaviour
         rigidBody.AddRelativeForce(new Vector3(Fx, 0.0f, 0.0f), ForceMode.Acceleration);
 
         rigidBody.AddTorque(new Vector3(0f, -lx * Fz * rotationSpeed, 0.0f));
-
+        current_speed = Vector3.Distance(location, transform.position);
+        location = transform.position;
     }
 
 
