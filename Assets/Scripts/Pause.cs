@@ -22,6 +22,7 @@ public class Pause : MonoBehaviour {
         isPaused = false;
         Time.timeScale = 1;
         Camera.main.GetComponent<FirstPersonCamera>().paused = false;
+        Cursor.lockState = CursorLockMode.Locked;
 
 
     }
@@ -31,6 +32,7 @@ public class Pause : MonoBehaviour {
         isPaused = true;
         Time.timeScale = 0;
         Camera.main.GetComponent<FirstPersonCamera>().paused = true;
+        Cursor.lockState = CursorLockMode.None;
 
     }
 }
