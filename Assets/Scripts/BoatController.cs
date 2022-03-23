@@ -32,7 +32,7 @@ public class BoatController : MonoBehaviour
     {
         float Fx = gasRotation.tilt * drivingSpeed * Mathf.Cos(angle);
         float Fz = gasRotation.tilt * drivingSpeed * Mathf.Sin(angle);
-        rigidBody.AddRelativeForce(new Vector3(Fx, 0.0f, 0.0f), ForceMode.Acceleration);
+        rigidBody.AddRelativeForce(new Vector3(Fx, 0.0f, Fz), ForceMode.Acceleration);
 
         rigidBody.AddTorque(new Vector3(0f, -lx * Fz * rotationSpeed, 0.0f));
 
