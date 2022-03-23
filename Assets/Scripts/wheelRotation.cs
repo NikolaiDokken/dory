@@ -14,7 +14,7 @@ public class wheelRotation : MonoBehaviour
     float lerp = 0f;
     float tilt;
     
-    void Update()
+    void FixedUpdate()
     {
         tilt = gameObject.transform.rotation.x;
         delta = Time.deltaTime;
