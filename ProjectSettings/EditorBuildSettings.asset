@@ -37,5 +37,8 @@ EditorBuildSettings:
     guid: 864b6b5f63db64f25b625442846cecc5
   - enabled: 0
     path: 
-    guid: 00000000000000000000000000000000
+    guid: 60e7d782fa1c04ffcb13302356ce403a
+  - enabled: 1
+    path: Assets/Scenes/EastMark.unity
+    guid: f049d11ba611e47b68ec8c3effc4a912
   m_configObjects: {}
