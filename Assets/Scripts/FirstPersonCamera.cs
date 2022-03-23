@@ -14,6 +14,9 @@ public class FirstPersonCamera : MonoBehaviour {
     const string xAxis = "Mouse X"; //Strings in direct code generate garbage, storing and re-using them creates no garbage
     const string yAxis = "Mouse Y";
 
+    void Start() {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
 
     // Update is called once per frame
     void Update() {
@@ -23,7 +26,6 @@ public class FirstPersonCamera : MonoBehaviour {
             rotation.y = Mathf.Clamp(rotation.y, -yRotationLimit, yRotationLimit);
             var xQuat = Quaternion.AngleAxis(rotation.x, Vector3.up);
             var yQuat = Quaternion.AngleAxis(rotation.y, Vector3.left);
-            Cursor.visible = false;
             transform.localRotation = xQuat * yQuat; //Quaternions seem to rotate more consistently than EulerAngles. Sensitivity seemed to change slightly at certain degrees using Euler. transform.localEulerAngles = new Vector3(-rotation.y, rotation.x, 0);
 
         }
