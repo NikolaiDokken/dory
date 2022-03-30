@@ -13,14 +13,12 @@ public class BoatController : MonoBehaviour
 
     [SerializeField]
     float angle = 0.0f;
-    float lx = 0.0f;
 
     public static float current_speed;
     Vector3 location;
 
     void Start()
     {
-        lx = Mathf.Abs(propeler.transform.position.x - balloonBoat.transform.position.x);
         location = transform.position;
     }
 
@@ -36,7 +34,7 @@ public class BoatController : MonoBehaviour
         float Fz = gasRotation.tilt * drivingSpeed * Mathf.Sin(angle);
         rigidBody.AddRelativeForce(new Vector3(Fx, 0.0f, 0.0f), ForceMode.Acceleration);
 
-        rigidBody.AddTorque(new Vector3(0f, -lx * Fz * rotationSpeed, 0.0f));
+        rigidBody.AddTorque(new Vector3(0f, - Fz * rotationSpeed, 0.0f));
         current_speed = Vector3.Distance(location, transform.position);
         location = transform.position;
     }

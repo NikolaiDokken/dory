@@ -1360,7 +1360,7 @@ MonoBehaviour:
   propeler: {fileID: 3330032321408665787}
   balloonBoat: {fileID: 5915908736096780608}
   drivingSpeed: -0.2
-  rotationSpeed: 0.01
+  rotationSpeed: 0.03
   rigidBody: {fileID: 761980690070347727}
   angle: 0
 --- !u!114 &2944245437951088117
