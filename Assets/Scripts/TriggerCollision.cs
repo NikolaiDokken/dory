@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class TriggerCollision : MonoBehaviour {
-    bool hasFailed = false;
+    //bool hasFailed = false;
 
     void OnTriggerEnter(Collider collisionObject) {
         if (collisionObject.tag == "IncorrectPath") {
