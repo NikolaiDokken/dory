@@ -8,15 +8,18 @@ public class TriggerCollision : MonoBehaviour {
 
     void OnTriggerEnter(Collider collisionObject) {
         if (collisionObject.tag == "IncorrectPath") {
-            hasFailed = true;
+            //hasFailed = true;
+            PlayerPrefs.SetInt("prevSceneIndex", SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene("LevelFailedScene");
+            return;
         }
         if (collisionObject.tag == "Finish") {
-            // OPEN game over menu
+/*             // OPEN game over menu
             if (hasFailed) {
                 PlayerPrefs.SetInt("prevSceneIndex", SceneManager.GetActiveScene().buildIndex);
                 SceneManager.LoadScene("LevelFailedScene");
                 return;
-            }
+            } */
             SceneManager.LoadScene("LevelCompleteScene");
 
         }
