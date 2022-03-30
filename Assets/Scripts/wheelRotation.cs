@@ -8,13 +8,13 @@ public class wheelRotation : MonoBehaviour
     public float maxLeft = 450f;
     public float maxRight = -450f;
     public float speed = 200;
-    
+
+    public static float angle;
     float delta; 
     float lerp = 0f;
     float tilt;
-    float angle;
-
-    void Update()
+    
+    void FixedUpdate()
     {
         tilt = gameObject.transform.rotation.x;
         delta = Time.deltaTime;
