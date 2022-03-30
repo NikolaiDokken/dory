@@ -8,6 +8,7 @@ public class BoatController : MonoBehaviour
     public GameObject propeler;
     public GameObject balloonBoat;
     public float drivingSpeed;
+    public float drivingzSpeed;
     public float rotationSpeed;
     public Rigidbody rigidBody;
 
@@ -30,7 +31,7 @@ public class BoatController : MonoBehaviour
 
     void Movement()
     {
-        float Fx = gasRotation.tilt * drivingSpeed * Mathf.Cos(angle);
+        float Fx = gasRotation.tilt * drivingSpeed;
         float Fz = gasRotation.tilt * drivingSpeed * Mathf.Sin(angle);
         rigidBody.AddRelativeForce(new Vector3(Fx, 0.0f, 0.0f), ForceMode.Acceleration);
 
