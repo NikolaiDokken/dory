@@ -8,7 +8,6 @@ public class BoatController : MonoBehaviour
     public GameObject propeler;
     public GameObject balloonBoat;
     public float drivingSpeed;
-    public float drivingzSpeed;
     public float rotationSpeed;
     public Rigidbody rigidBody;
 
