@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -182,18 +182,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 75
+    m_FontSize: 90
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 75
+    m_MinSize: 0
+    m_MaxSize: 90
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Dette var ikke helt riktig, pr\xF8v igjen"
+  m_Text: "Dette var ikke helt riktig.\nPr\xF8v igjen!"
 --- !u!222 &129072317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -564,7 +564,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5835489760815842632, guid: a9152e5ce3b5d4fbfa1a77478b88a49e, type: 3}
       propertyPath: m_Text
-      value: Avslutt
+      value: Hovedmeny
       objectReference: {fileID: 0}
     - target: {fileID: 5835489761961381746, guid: a9152e5ce3b5d4fbfa1a77478b88a49e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
