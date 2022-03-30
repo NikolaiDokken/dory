@@ -20,13 +20,14 @@ public class TriggerCollision : MonoBehaviour {
             SceneManager.LoadScene("LevelCompleteScene");
 
         }
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Terrain") {
+        if (collisionObject.tag == "Terrain")
+        {
             PlayerPrefs.SetInt("prevSceneIndex", SceneManager.GetActiveScene().buildIndex);
             SceneManager.LoadScene("LevelFailedScene");
             return;
+
         }
+
     }
+
 }
