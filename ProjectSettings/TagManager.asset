@@ -7,6 +7,7 @@ TagManager:
   - CorrectPath
   - IncorrectPath
   - Floater
+  - Terrain
   layers:
   - Default
   - TransparentFX
