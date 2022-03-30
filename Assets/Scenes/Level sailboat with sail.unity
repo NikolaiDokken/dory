@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4456488, g: 0.49534512, b: 0.57419795, a: 1}
+  m_IndirectSpecularColor: {r: 0.44564867, g: 0.49534494, b: 0.57419723, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2570,7 +2570,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh138544
+  m_Name: pb_Mesh57344
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3257,6 +3257,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2496779413579488672, guid: 10acd4721884900468eb3ab799d458f7, type: 3}
+      propertyPath: m_text
+      value: "Passer b\xE5ten og kj\xF8r i m\xE5l"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5853890161739063762, guid: 10acd4721884900468eb3ab799d458f7, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5853890162318513354, guid: 10acd4721884900468eb3ab799d458f7, type: 3}
       propertyPath: m_Name
       value: Pause
