@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 91881586}
   m_Layer: 0
   m_Name: Terrain_(0.0, 0.0, -700.0)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 341940880}
   m_Layer: 0
   m_Name: Terrain_(700.0, 0.0, 0.0)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 402293047}
   m_Layer: 0
   m_Name: Terrain_(0.0, 0.0, 700.0)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -687,7 +687,7 @@ GameObject:
   - component: {fileID: 543482825}
   m_Layer: 0
   m_Name: Terrain_(100.0, 0.0, -100.0)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -851,7 +851,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559214988}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 15600000, guid: ae2e50ce3b37a41cba2187ebdb7c78df, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &559214991
@@ -900,7 +900,7 @@ GameObject:
   - component: {fileID: 565796485}
   m_Layer: 0
   m_Name: Terrain_(-100.0, 0.0, 100.0)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1003,7 +1003,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854668742}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 15600000, guid: 3d4853396ec594a1688bfad825d569d4, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &854668745
@@ -1079,7 +1079,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863056043}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 15600000, guid: 43310d009e6264e6ba372d0588227ed4, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &863056046
@@ -1128,7 +1128,7 @@ GameObject:
   - component: {fileID: 874295924}
   m_Layer: 0
   m_Name: Terrain_(100.0, 0.0, 200.0)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1204,7 +1204,7 @@ GameObject:
   - component: {fileID: 952237831}
   m_Layer: 0
   m_Name: Terrain_(100.0, 0.0, 100.0)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1280,7 +1280,7 @@ GameObject:
   - component: {fileID: 988070257}
   m_Layer: 0
   m_Name: Terrain_(0.0, 0.0, 200.0)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1383,7 +1383,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1027921722}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 15600000, guid: 8460a4649691c49a6964bb0213160457, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1027921725
@@ -1552,7 +1552,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181731181}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 15600000, guid: 6e05db5d2924f44bd81ba16a4d146617, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1181731184
@@ -1628,7 +1628,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185320994}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 15600000, guid: 0fcce19bed4e54c2680c3f114f7a7253, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1185320997
@@ -1704,7 +1704,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190772140}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 15600000, guid: 5032ba3a7d96d4fe28fdc039c8d79080, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1190772143
@@ -1814,7 +1814,7 @@ GameObject:
   - component: {fileID: 1265371074}
   m_Layer: 0
   m_Name: Terrain_(-100.0, 0.0, 200.0)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1890,7 +1890,7 @@ GameObject:
   - component: {fileID: 1297781157}
   m_Layer: 0
   m_Name: Terrain_(-100.0, 0.0, -100.0)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1994,6 +1994,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3018780601577533296, guid: e09ea6b1ffffb4598aad1ad4dac28880, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4712168856867647576, guid: e09ea6b1ffffb4598aad1ad4dac28880, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.9
@@ -2001,6 +2005,10 @@ PrefabInstance:
     - target: {fileID: 5915908736096780608, guid: e09ea6b1ffffb4598aad1ad4dac28880, type: 3}
       propertyPath: m_Name
       value: PrototypeBoat
+      objectReference: {fileID: 0}
+    - target: {fileID: 5915908736096780608, guid: e09ea6b1ffffb4598aad1ad4dac28880, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 5915908736096780609, guid: e09ea6b1ffffb4598aad1ad4dac28880, type: 3}
       propertyPath: m_RootOrder
@@ -2092,7 +2100,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511338119}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 15600000, guid: 05bdaabb2cdb64048bad145fe70fb3d9, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1511338122
@@ -2168,7 +2176,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651699371}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 15600000, guid: 6618d68a94f144573acff3b0c3f6ebd8, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1651699374
@@ -2217,7 +2225,7 @@ GameObject:
   - component: {fileID: 1691526337}
   m_Layer: 0
   m_Name: Terrain_0_0_5bc85886-d018-48d8-9e9e-dfe532c335af
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2298,7 +2306,7 @@ GameObject:
   - component: {fileID: 1765530430}
   m_Layer: 0
   m_Name: Terrain_(-100.0, 0.0, 0.0)
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2575,7 +2583,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932154098}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 15600000, guid: a76fc9a70bfa0496d9d200d9edd89b07, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1932154101
@@ -2623,7 +2631,7 @@ GameObject:
   - component: {fileID: 2001262116}
   m_Layer: 0
   m_Name: TerrainGroup_0
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2819,7 +2827,7 @@ TerrainCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110045687}
   m_Material: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_TerrainData: {fileID: 15600000, guid: b04a95e44f8b1481d8aca5e69b63ffd4, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &2110045690
